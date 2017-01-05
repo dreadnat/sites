@@ -1,0 +1,155 @@
+img {
+	width: 70%;
+	margin: 30px auto;
+	display: block;
+	border: 2px solid #666;
+}
+h1, h2 {
+  text-transform: uppercase; 
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h2 {
+  color: #4d4d4d;
+}  
+h1 {
+  text-align: center;
+  color: #ffffcc;
+  padding-top: 30px;
+}
+.left {
+	width: 23%;
+	background: rgba(77, 102, 0, .6);
+	display: inline-block;
+	float: left;
+	height: 100vh;
+	padding: 15px;
+}
+.right {
+	width: 70%;
+	display: inline-block;
+	padding: 15px;
+	background: #bfbfbf; 
+    background: -webkit-linear-gradient(left, #bfbfbf, #fff); 
+    background: -o-linear-gradient(right, #bfbfbf, #fff); 
+    background: -moz-linear-gradient(right, #bfbfbf, #fff); 
+    background: linear-gradient(to right, #bfbfbf, #fff); 
+    height: 100vh;
+}
+.right p {
+	font-size: 120%;
+	font-family: Georgia, serif;
+	color: #4d4d4d;
+}
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	width: 8%;
+	height: 5%;
+	padding: 1% 2%;
+	font-size: 120%;
+	border-radius: 8px;
+	list-style-type: none;
+	margin: 2% 3%;
+	background-color: #e6e6e6;
+	background-color: rgba(0,0,0,.2);
+	color: #ffffcc; 
+	transition-property: width;
+	 -webkit-transition: width 0.5s; 
+    -webkit-transition-timing-function: linear;
+    transition: width 0.5s, margin 0.5s;
+    transition-timing-function: linear;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav a:hover {
+	width: 9%;
+	margin: 2% 2.5%;
+	font-weight: bold;
+	background-color: rgba(0,0,0,.5);
+}
+.active {
+	background: #ffffe6;
+	color: #4d4d4d;
+}
+.active:hover {
+	background: #ffffe6;
+}
+header {
+	background: #bfbfbf url(../images/flywheel-2.jpg) 50% 6% no-repeat;
+	padding: 1px;
+}
+body {
+	margin: 20px 20px;
+	padding: 20px 20px;
+}
+table {
+	color: #000;
+	border-spacing: 2px;
+	width: 70%;
+	margin: 0 auto;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	line-height: 110%;
+	font-size: 95%;
+}
+td {
+	background-color: #ffffcc;
+	color: #666;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+th,td {
+	border: 1px solid #999;
+	text-align: center;
+	padding: 12px;
+}
+td:hover {
+	font-size: 105%;
+}
+th:hover {
+	font-size: 130%;
+}
+th {
+	
+	background: #666; 
+    background: -webkit-linear-gradient(#d9d9d9, #666); 
+    background: -o-linear-gradient(#d9d9d9, #666); 
+    background: -moz-linear-gradient(#d9d9d9, #666); 
+    background: linear-gradient(#d9d9d9, #666); 
+	color: #ffffe6;
+	border-bottom: 3px solid #595959;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 120%;
+}
+th:first-child {
+	-webkit-border-radius: 8px 0 0 0;
+	border-radius: 8px 0 0 0;
+}
+th:last-child {
+	-webkit-border-radius: 0 8px 0 0;
+	border-radius: 0 8px 0 0;
+}
+td {
+	text-shadow: 1px 1px #ccc;
+}
+tr>td:first-child {
+	text-align: left;
+	width: 60%;
+}
+tr>th:first-child {
+	text-align: left;
+	width: 60%;
+}
+tr {
+	opacity: .8;
+}
+tr:hover {
+	opacity: 1;
+}
+
+
+/*the site looks good on a desktop computer minimum 1531px width*/
+
