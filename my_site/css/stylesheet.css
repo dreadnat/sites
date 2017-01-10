@@ -15,9 +15,10 @@ body {
     -o-filter: grayscale(100%); 
     -o-transition: .8s ease-in-out;
 }
+
 main {
 	/*border: 1px solid black;*/
-	height: 33em;
+	height: 33%;
 	width: 10270px;
 	margin: 5% 1% 1% 1%;
 	padding: 10% 1% 0;
@@ -27,7 +28,7 @@ footer {
 	/*border: 1px solid black;*/
 	margin: 0 1% 1%;
 	padding: 0 0 0.8% 1%;
-	min-width: 111em;
+	width: 100%;
 	position: fixed;
 	bottom: 0;
 	height: 20px;
@@ -69,7 +70,7 @@ ul {
 	padding-left: 1%;
 }
 .second ul {
-	margin-left: 80%;
+	margin-left: 74%;
 }
 .second a {
 	font-family: "Copperplate Gothic Light", sans-serif;
