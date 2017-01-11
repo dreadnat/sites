@@ -16,7 +16,7 @@ body {
     -o-transition: .8s ease-in-out;
 }
 
-main {
+.home {
 	/*border: 1px solid black;*/
 	height: 33%;
 	width: 10270px;
@@ -102,12 +102,13 @@ img:hover {
 .summer {
 	display: inline-block;
 }
-content #products {
+.content #products {
 	/*border: 1px solid black;*/
 	margin: 5% 1% 1% 1%;
 	padding: 1%;
 }
-content p {
+
+.content p {
 	/*border: 1px solid black;*/
 	margin: 5% 1%;
 	padding: 1%;
